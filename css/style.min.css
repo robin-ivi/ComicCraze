@@ -564,7 +564,7 @@ header {
 .spoider {
 	position: absolute;
 	bottom: -90px;
-	left: -40px;
+	left: -24px;
 	animation-name: animar;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
@@ -1299,6 +1299,11 @@ footer .items-footer-div li a span:first-child {
 	left: 20px;
 	bottom: 15px;
 	width: 12%;
+}
+
+.head-boyd-img img{
+	z-index: 999;
+	position: relative;
 }
 
 .serices-div {

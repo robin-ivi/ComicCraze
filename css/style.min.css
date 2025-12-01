@@ -1256,11 +1256,15 @@ footer hr {
 footer .fuyr-divu {
 	background: var(--secondcolor);
 	width: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 footer .items-footer-div h5 {
 	font-family: "Bangers",cursive;
 	font-size: 35px;
+	z-index: 2;
+	position: relative;
 }
 
 footer .items-footer-div li {
@@ -1298,11 +1302,11 @@ footer .items-footer-div li a span:first-child {
 	position: absolute;
 	left: 20px;
 	bottom: 15px;
-	width: 12%;
+	width: 16%;
 }
 
 .head-boyd-img img{
-	z-index: 999;
+	z-index: 2;
 	position: relative;
 }
 

@@ -117,12 +117,13 @@ img {
 }
 
 header {
-	position: absolute;
+	/* position: absolute; */
 	z-index: 3;
-	padding: 9px 0 0 0;
+	/* padding: 9px 0 0 0; */
 	left: 0;
 	right: 0;
 	top: 0;
+	background: var(--secondcolor);
 }
 
 .navbar-nav .nav-link {
@@ -221,8 +222,8 @@ header {
 }
 
 .fixed-menu {
-	background: #fff;
-	position: fixed;
+	background: #040404bd;
+	/* position: fixed; */
 	top: 0;
 	animation: slide-down .7s;
 	left: 0;
@@ -371,16 +372,31 @@ header {
 	visibility: visible;
 }
 
+/* Banner background slider */
 .banner-part {
-	background: url(../images/banner-bg.jpg) no-repeat;
 	height: 730px;
 	width: 100%;
-	background-size: cover;
 	position: relative;
-	display: grid;
-	align-content: center;
-	padding-top: 300px;
+	overflow: hidden;
 }
+
+.banner-slide {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity 1s ease-in-out;
+	opacity: 0;
+}
+
+.banner-slide.active {
+	opacity: 1;
+}
+
 
 .banner-part h2 {
 	font-size: 85px;
@@ -688,7 +704,7 @@ header {
 	bottom: 0;
 	border-radius: 0px 0px 20px 20px;
 	background: rgba(5,5,5,.85);
-	height: 101px;
+	height: 60px;
 	display: grid;
 	align-content: center;
 	padding-left: 20px;
@@ -700,9 +716,9 @@ header {
 }
 
 .comon-items .content-section p {
-	font-size: 16px;
+	font-size: 12px;
 	color: #ffd04c;
-	margin-top: 8px;
+	margin-top: 0px;
 }
 
 .comon-items:hover .img-box-div img {
@@ -840,7 +856,7 @@ header {
 }
 
 .shop-items .details-shopi h5 {
-	font-size: 16px;
+	font-size: 14px;
 	/* text-overflow: ellipsis; */
 	width: 98%;
 	/* white-space: nowrap; */
@@ -848,7 +864,7 @@ header {
 }
 
 .shop-items .details-shopi h3 {
-	font-size: 24px;
+	font-size: 15px;
 	color: var(--primarycolor);
 	font-family: "Bangers",cursive;
 }

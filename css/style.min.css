@@ -811,13 +811,13 @@ header {
 
 .shop-items {
 	border-radius: 20px;
-	height: 320px;
+	height: 630px;
 	border: solid 5px var(--ligit-color);
 	transition: ease-in .15s;
 }
 
 .shop-items .img-box-div {
-	height: 240px;
+	height: 550px;
 	overflow: hidden;
 }
 
@@ -840,15 +840,15 @@ header {
 }
 
 .shop-items .details-shopi h5 {
-	font-size: 20px;
-	text-overflow: ellipsis;
+	font-size: 16px;
+	/* text-overflow: ellipsis; */
 	width: 98%;
-	white-space: nowrap;
-	overflow: hidden;
+	/* white-space: nowrap; */
+	/* overflow: hidden; */
 }
 
 .shop-items .details-shopi h3 {
-	font-size: 32px;
+	font-size: 24px;
 	color: var(--primarycolor);
 	font-family: "Bangers",cursive;
 }
@@ -965,7 +965,7 @@ header {
 }
 
 .join-serc-divu {
-	background: url(../images/join-bg.png) no-repeat;
+	background: url(../images/raj1.jpg) no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 430px;

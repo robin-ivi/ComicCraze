@@ -1,1 +1,1 @@
-# ComicCraze by Robin
+# ComicCraze by Robin.

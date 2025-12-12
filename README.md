@@ -1,2 +1,2 @@
-# ComicCraze by Robin.
+# ComicCraze by Raj Comics.
   

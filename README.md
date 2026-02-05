@@ -1,2 +1,2 @@
-# ComicCraze by Raj Comics.
+# ComicCraze by Raj Comics
   
